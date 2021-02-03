@@ -21,12 +21,7 @@ h1 {
   font-family: 'Big+Shoulders', sans-serif;
   text-align: center;
   color: rgb(79, 95, 114);
-  padding: 0.5rem;
-}
-h2 {
-  display: flex;
-
-  color: rgb(79, 95, 114);
+  padding: 0.2rem;
 }
 
 header ul {
@@ -35,11 +30,52 @@ header ul {
   justify-content: space-evenly;
   letter-spacing: 0.02rem;
   list-style: none;
+  margin: auto;
+  padding: 0.5em;
   background-color: rgb(86, 196, 217);
 }
 header li:not(:first-child) {
   margin-left: 1rem;
 }
+main {
+  display: flex;
+  justify-content: space-around;
+}
+figure {
+  border: rgb(118, 179, 194) ridge;
+  padding: 0.5em;
+}
+h2 {
+  color: rgb(79, 95, 114);
+}
+h3 {
+  color: rgb(79, 95, 114);
+}
+/* section {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+section ul {
+  justify-content: left;
+  flex-direction: column;
+}
+section h2 {
+  display: flex;
+  justify-content: right;
+  color: rgb(74, 95, 114);
+}
+h3 {
+  display: flex;
+  justify-content: left;
+  color: rgb(74, 95, 114);
+}
+.Cat {
+  height: 150px;
+} */
+
 a:link,
 a:visited {
   text-decoration: blueviolet;
@@ -55,6 +91,7 @@ header a:visited {
 }
 
 footer {
+  padding: 0.5rem;
   background-color: rgb(216, 216, 216);
 }
 footer ul {
