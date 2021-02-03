@@ -17,11 +17,56 @@ body {
   color: rgb(12, 5, 1);
 }
 h1 {
+  font-size: 3rem;
   font-family: 'Big+Shoulders', sans-serif;
   text-align: center;
   color: rgb(79, 95, 114);
   padding: 0.5rem;
 }
+h2 {
+  display: flex;
+
+  color: rgb(79, 95, 114);
+}
+
 header ul {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 0.02rem;
+  list-style: none;
   background-color: rgb(86, 196, 217);
+}
+header li:not(:first-child) {
+  margin-left: 1rem;
+}
+a:link,
+a:visited {
+  text-decoration: blueviolet;
+}
+a:focus,
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+header a:link,
+header a:visited {
+  color: rgb(253, 254, 254);
+}
+
+footer {
+  background-color: rgb(216, 216, 216);
+}
+footer ul {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer li:not(:first-child) {
+  margin-left: 1rem;
+}
+footer a:link,
+footer a:visited {
+  color: rgb(12, 5, 1);
 }
