@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +12,16 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(229, 2243, 245);
+  color: rgb(12, 5, 1);
+}
+h1 {
+  font-family: 'Big+Shoulders', sans-serif;
+  text-align: center;
+  color: rgb(79, 95, 114);
+  padding: 0.5rem;
+}
+header ul {
+  background-color: rgb(86, 196, 217);
 }
